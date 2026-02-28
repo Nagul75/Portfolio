@@ -112,8 +112,8 @@ export const siteConfig = {
       degree: "SSLC and HLC",
       dateRange: "2020 - 2022",
       achievements: [
-        "SSLC - 88.2%",
-        "HLC - 82.8%"
+        "X - 88.2%",
+        "XII - 82.8%"
       ],
     },
   ],

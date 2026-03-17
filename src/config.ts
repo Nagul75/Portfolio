@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Nagul Kanna T",
   title: "Software | Fullstack engineer",
   description: "Portfolio website of Nagul Kanna T",
-  accentColor: "#9d174d",
+  accentColor: "#be185d",
   social: {
     email: "nagulk697@gmail.com",
     linkedin: "https://linkedin.com/in/nagul25",

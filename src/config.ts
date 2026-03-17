@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Nagul Kanna T",
   title: "Software | Fullstack engineer",
   description: "Portfolio website of Nagul Kanna T",
-  accentColor: "#db2777",
+  accentColor: "#d946ef",
   social: {
     email: "nagulk697@gmail.com",
     linkedin: "https://linkedin.com/in/nagul25",
@@ -21,18 +21,13 @@ export const siteConfig = {
       sections: [
       {
         bullets: [
-          "Designed and deployed a full-stack personal finance tracking platform on AWS using EC2 (Dockerized Node.js backend), S3 (React frontend), and RDS (PostgreSQL)",
-          "Modeled relational database schema (users, accounts, transactions, budgets, tokens) using Prisma ORM, ensuring data integrity and scalability",
-          "Built 25+ RESTful APIs with JWT-based authentication (access + refresh tokens) and secure authorization controls",
-          "Designed and enforced tiered API rate limiting (stricter for auth routes) to prevent abuse, protect system resources, and improve backend stability under load",
-          "Implemented transaction-safe balance reconciliation logic to maintain consistency across financial operations",
-          "Developed a data-intensive dashboard with aggregation endpoints",
-          "Achieved 100/100 Lighthouse performance score on landing page and 96/100 on dashboard through optimization strategies",
-          "Reduced frontend bundle size from 1.7MB → <500KB (~70% reduction) via Vite optimization and code splitting",
-          "Built responsive UI with React + shadcn/ui, including charts (Recharts), forms, and state management with React Query",
-          "Designed system to support multi-currency transactions, enabling users to manage accounts in different currencies with consistent data modeling",
-          "Implemented robust client-side + server-side validation using Zod and react-hook-form",
-          "Optimized UX with optimistic updates, skeleton loaders, and pagination/filtering for large datasets",
+          "Designed and deployed a full-stack application on AWS (EC2 Docker backend, S3 frontend, RDS PostgreSQL)",
+          "Built 25+ REST APIs with JWT auth (access/refresh), and tiered rate limiting for security",
+          "Modeled relational schema with Prisma and implemented transaction-safe balance reconciliation",
+          "Developed data-heavy dashboard with aggregation endpoints (category/time-series analytics)",
+          "Achieved 100/100 Lighthouse (landing) and 96/100 (dashboard); reduced bundle size 1.7MB → <500KB (~70%)",
+          "Built responsive UI with React, shadcn/ui, React Query, and Recharts with optimized UX (updates, skeletons, filtering)",
+          "Implemented end-to-end validation (Zod) and multi-currency support for consistent financial tracking",
         ],
       },
     ]

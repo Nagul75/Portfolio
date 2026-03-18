@@ -15,7 +15,7 @@ export const siteConfig = {
     {
       name: "Cheapskate",
       description:
-        "A production-style, full-stack personal finance application enabling users to securely track accounts, transactions, budgets, and spending insights with real-time analytics.",
+        "A production-ready full-stack personal finance tracker enabling users to manage accounts, transactions, and budgets with real-time analytics and high-performance dashboards.",
       skills: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "Jira"],
       link: "https://cheapskate.in/",
       sections: [
@@ -23,7 +23,7 @@ export const siteConfig = {
         bullets: [
           "Designed and deployed a full-stack application on AWS (EC2 Docker backend, S3 frontend, RDS PostgreSQL)",
           "Built 25+ REST APIs with JWT auth (access/refresh), and tiered rate limiting for security",
-          "Modeled relational schema with Prisma and implemented transaction-safe balance reconciliation",
+          "Modeled relational schema with Prisma and optimized query performance using composite indexes aligned with user-scoped and time-based access patterns",
           "Developed data-heavy dashboard with aggregation endpoints (category/time-series analytics)",
           "Achieved 100/100 Lighthouse (landing) and 96/100 (dashboard); reduced bundle size 1.7MB → <500KB (~70%)",
           "Built responsive UI with React, shadcn/ui, React Query, and Recharts with optimized UX (updates, skeletons, filtering)",

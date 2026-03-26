@@ -29,6 +29,7 @@ export const siteConfig = {
           "Load-tested backend with k6: handled ~150 concurrent users at ~70 req/s with <1% error rate and ~200ms average latency; identified tail latency as a key optimization area",
           "Built responsive UI with React, shadcn/ui, React Query, and Recharts with optimized UX (updates, skeletons, filtering)",
           "Implemented end-to-end validation (Zod) and multi-currency support for consistent financial tracking",
+          "Implemented CI/CD pipelines using GitHub Actions to automate build and deployment of frontend (S3 + CloudFront) and backend (Dockerized Node.js on EC2 via ECR, RDS).",
         ],
       },
     ]
